@@ -1,0 +1,30 @@
+{
+  "api": {
+    "port": 5000,
+    "prefix": "/api/v1",
+    "jwtSecret": "yuyuidsecret"
+  },
+  "web": {
+    "prefix": "/"
+  },
+  "db": {
+    "port": 27017,
+    "uri": "mongodb://localhost",
+    "name": "myskripsi",
+    "detail": "mongodb://localhost:27017/vodonesia",
+    "username": "root",
+    "password": "",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "sendgrid": {
+    "apiKey": "sstfab2t3kcm",
+    "emailFrom": "myudisobari12@gmail.com",
+    "fakeEmailTo": "agungseprulloh1996@gmail.com",
+    "subjectPrefix": "YuyuidTesting"
+  },
+  "url": {
+    "resetPassword": "http://localhost:5000/reset-password",
+    "verifyEmail": "http://localhost:5000/verify-email"
+  }
+}
