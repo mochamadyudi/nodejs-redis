@@ -6,7 +6,9 @@ export default function APiRoutes(redis){
     const app = Router()
 
     auth(app)
+
     post(app,redis)
+
 
     return app
 }
